@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- -----------------------nav bar section------------------ -->
+    <nav class="nav-container-main">
+        <div class="nav-container">
+            <div class="nav-row">
+                <div class="nav-col">
+                    <div class="nav-col-logodiv">
+                        <img class="nav-col-logo" src="images/NewHeaderLogo1.webp" alt="" style="width: 50%;">
+                    </div>
+
+                    <div class="nav-col-inputdiv">
+                        <i class='bx bx-search'></i>
+                        <input type="search" placeholder="Search" class="nav-col-input" id="search-input">
+                    </div>
+                    <div class="nav-col-icon">
+                        <button id="cartbtn"><i class='bx bx-cart'></i><span class="addtocartvalue">0</span></button>
+                        <button id="loginbtn"><i class='bx bxs-user-circle'></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navcontain-2">
+            <a href="http://127.0.0.1:5500/catproduc.html?category=veterinary" class="navcontain-2-vetrinary">veterinary</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=health%20care" class="navcontain-2-health">health care</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=Personal%20Care" class="navcontain-2-personal">personal care</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=agriculture" class="navcontain-2-agri">agriculture</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=Home%20care" class="navcontain-2-home">home care</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=grocery" class="navcontain-2-groce">grocery</a>
+
+        </div>
+        <hr style="margin-top: 10px; width: 90%; margin-left: 5%;">
+    </nav>
+
+    <!-- --------------banner section------------- -->
+    <section style="margin-top: 5px; position: relative;" class="baner-sec">
+        <div class="banner">
+            <div class="banners active">
+                <img src="images/banerimages/Agriculture banner.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Grocery Banner-1.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Grocery Banner.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Health care banner.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Personal care 2.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Personal Care-1.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Personal Care-2.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Personal Care.jpg" alt="" width="100%" class="baner-img">
+            </div>
+            <div class="banners">
+                <img src="images/banerimages/Veterinary Banner.jpg" alt="" width="100%" class="baner-img">
+            </div>
+        </div>
+        <button id="prebtn" class="baner-btn1"><i class='bx bx-chevron-left'></i></button>
+        <button id="nxtbtn" class="baner-btn2"><i class='bx bx-chevron-right'></i></button>
+    </section>
+    <!-- --------------------------search result--- -->
+    <section >
+        <div class="scr-container">
+            <div class="scr-row">
+                <p id="scr-rslt" style="display: none; width: 90%; justify-content: center;
+                align-items: center; text-align: center; font-size: 34px;
+                 text-transform: uppercase;
+                 border: 1px solid rgba(22, 104, 210, 0.804);
+                color: white;
+                background-color: rgba(22, 104, 210, 0.804);
+                 border-radius: 6px;
+                  font-size: 28px;
+                  margin: auto;
+                  margin-top: 10px;">
+                    Search Results
+                </p>
+                <div id="search-results">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------category products details--------------- -->
+    <section>
+        <div class="ftr-container">
+            <h1 style="width: 100%; display: flex; justify-content: center; text-align: 
+            center; font-size: 30px; text-transform: uppercase; color: rgb(210, 22, 22);">CATEGORIES</h1>
+            <div class="ftr-row">
+                <div id="ftr-col">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------footer section--------------- -->
+    <hr style="margin-top: 10px;">
+    <footer>
+        <div class="footer-cont">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <img src="images/NewHeaderLogo1.webp" alt="">
+                </div>
+                <div class="footer-col">
+                    <h1>about us</h1><br>
+                    <a href="">about</a><br><br>
+                    <a href="">grevince</a><br><br>
+                    <a href="">events and trainbring</a><br><br>
+                    <a href="">photos & video</a><br><br>
+                    <a href="">legal</a><br>
+                </div>
+                <div class="footer-col">
+                    <h1>policy</h1><br>
+                    <a href="">privacy policy</a><br><br>
+                    <a href="">terms & conditions </a><br><br>
+                </div>
+                <div class="footer-col">
+                    <h1>contact us</h1><br>
+                    <a href="" class="footer-col-social"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="" class="footer-col-social"><i class='bx bxl-instagram'></i></a>
+                    <a href="" class="footer-col-social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-copywrite">
+            <h1>Copyright @2024 Unilink Marketing Private Limited All Rights Reserved</h1>
+        </div>
+    </footer>
+
+    <script src="js/banerscript.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/categoryses.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>

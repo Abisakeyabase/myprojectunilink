@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Cart Example</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="product">
+        <h2>Product Name</h2>
+        <p>Price: $10.00</p>
+        <div class="quantity-control">
+            <button id="decrease">-</button>
+            <span id="quantity">1</span>
+            <button id="increase">+</button>
+        </div>
+        <button id="addToCart">Add to Cart</button>
+    </div>
+
+    <div class="cart">
+        <h2>Cart</h2>
+        <ul id="cartItems"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </div>
+
+    <script>
+        let quantity = 1;
+const price = 10.00;
+
+const quantityDisplay = document.getElementById('quantity');
+const cartItemsList = document.getElementById('cartItems');
+const totalDisplay = document.getElementById('total');
+
+document.getElementById('increase').addEventListener('click', () => {
+    quantity++;
+    updateQuantityDisplay();
+});
+
+document.getElementById('decrease').addEventListener('click', () => {
+    if (quantity > 1) {
+        quantity--;
+        updateQuantityDisplay();
+    }
+});
+
+document.getElementById('addToCart').addEventListener('click', () => {
+    const cartItem = document.createElement('li');
+    cartItem.textContent = `Product Name - Quantity: ${quantity} - Price: $${(quantity * price).toFixed(2)}`;
+    cartItemsList.appendChild(cartItem);
+    updateTotal();
+    quantity = 1; // Reset quantity after adding to cart
+    updateQuantityDisplay();
+});
+
+function updateQuantityDisplay() {
+    quantityDisplay.textContent = quantity;
+}
+
+function updateTotal() {
+    const cartItems = cartItemsList.getElementsByTagName('li');
+    let total = 0;
+    for (let item of cartItems) {
+        const priceText = item.textContent.match(/Price: \$([0-9.]+)/);
+        if (priceText) {
+            total += parseFloat(priceText[1]);
+        }
+    }
+    totalDisplay.textContent = total.toFixed(2);
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view product page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+       
+        .Product-items{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid rgba(22, 104, 210, 0.678);
+            border-radius: 10px;
+
+        }
+        .productimagediv{
+            border: 1px solid rgba(22, 104, 210, 0.300);
+            width: 20%;
+        }
+        .productimagediv img{
+            width: 100%;
+            padding: 5px;
+
+        }
+        .product-Name{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid rgba(22, 104, 210, 0.300);
+        }
+        .product-Name h2{
+            width: 100%;
+            font-size: 28px;
+            color:  rgba(22, 104, 210, 0.897);
+        }
+        .Mrp{
+            font-size: 18px;
+            color:green;
+            text-transform: capitalize;
+            padding: 5px;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid rgba(22, 104, 210, 0.300);
+        }
+        .order-quantity-control {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgba(22, 104, 210, 0.300);
+}
+
+.order-decrease-btn,
+.order-increase-btn {
+    color: white;
+    background-color: orange;
+    outline: none;
+    border: 1px solid orange;
+    font-size: 20px;
+    width: 12%;
+    /* padding: 5px; */
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.order-cart-input-value {
+    width: 14%;
+    height: 18px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order-totaldiv{
+    width: 30%;
+    border: 1px solid rgba(22, 104, 210, 0.300);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.order-totaldiv h1{
+    width: 100%;
+}
+.order-totaldiv-totprice{
+    color: red;
+}
+.order-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.order-btn button{
+    width: 12%;
+    border: 1px solid red;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px black;
+}
+.order-btn button:hover{
+    color: red;
+    background-color: white;
+    transition: 0.8s;
+}
+       /* 
+        
+        
+      
+        .product-descr{
+            width: 100%;
+            display: flex;
+            font-size: 14px;
+            color:rgb(97, 92, 92);
+            text-transform: uppercase;
+            padding: 5px;
+            letter-spacing: 2px;
+        }
+        .addtocart {
+    width: 100%;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.addtocart .addcart-viewbtn {
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(22, 104, 210, 0.804);
+    background-color: rgba(22, 104, 210, 0.804);
+    width: 40%;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.addtocart .add-to-cart-btn {
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(22, 104, 210, 0.804);
+    background-color: rgba(255, 255, 255, 0.804);
+    width: 40%;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.addtocart .add-to-cart-btn i {
+    font-size: 24px;
+}
+
+.add-to-cart-btn:active {
+
+    background-color: rgba(22, 104, 210, 0.247); */
+/* } */
+      </style>
+</head>
+
+<body>
+    <!-- -----------------------nav bar section------------------ -->
+    <nav class="nav-container-main">
+        <div class="nav-container">
+            <div class="nav-row">
+                <div class="nav-col">
+                    <div class="nav-col-logodiv">
+                        <button id="indexbtn" title="back"><img class="nav-col-logo" src="images/NewHeaderLogo1.webp"
+                            alt="" style="width: 50%;"></button>
+                    </div>
+
+                    <div class="nav-col-inputdiv">
+                        <i class='bx bx-search'></i>
+                        <input type="search" placeholder="Search" class="nav-col-input" id="search-input">
+                    </div>
+                    <div class="nav-col-icon">
+                        <button id="cartbtn"><i class='bx bx-cart'></i><span class="addtocartvalue" >0</span></button>
+                        <button id="loginbtn"><i class='bx bxs-user-circle'></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navcontain-2">
+            <a href="http://127.0.0.1:5500/catproduc.html?category=veterinary">veterinary</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=health%20care">health care</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=Personal%20Care">personal care</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=agriculture">agriculture</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=Home%20care">home care</a>
+            <a href="http://127.0.0.1:5500/catproduc.html?category=grocery">grocery</a>
+
+        </div>
+        <hr style="margin-top: 10px; width: 90%; margin-left: 5%;">
+    </nav>
+    <!-- ------------------view products details------------- -->
+    <section>
+        <div class="product-container">
+          <div class="product-row">
+          </div>
+        </div>
+      </section>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const productName = urlParams.get("productname")?.toLowerCase(); 
+    
+        fetch("collection.json")
+          .then(res => res.json())
+          .then(data => {
+            matchdata(data);
+          })
+          .catch(error => {
+            console.log("This message is error", error);
+          });
+    
+        function matchdata(data) {
+          const product = data.categories
+            .flatMap(unilink => unilink.products)
+            .find(p => p.name.toLowerCase() === productName); 
+    
+          const row = document.querySelector(".product-row");
+          if (product) {
+            const col = document.createElement("div");
+            col.classList.add("Product-col");
+            col.innerHTML = `
+            <div class="Product-items">
+                <div class="productimagediv">
+                  <img class="productimag" src="${product.image}" alt="${product.name}" />
+                </div>
+                <div class="product-Name">
+                  <h2>${product.name}</h2>
+                </div>
+                <div class="Mrp">
+                    <h1>Mrp: ₹${product.price}</h1>
+                </div>
+                 <div class="order-quantity-control">
+                    <button class="order-decrease-btn">-</button>
+                    <span class="order-cart-input-value">1</span> 
+                    <button class="order-increase-btn" >+</button>
+                </div>
+                <div class="order-totaldiv">
+                    <h1>total amount</h1>
+                    <h1 class="order-totaldiv-totprice">₹${product.price}</h1>
+                    </div>
+            </div>
+            <div class="order-btn">
+                <button>order now</button>
+                </div>`;   
+    
+            row.appendChild(col);
+            col.querySelector(".add-to-cart-btn").addEventListener("click", ()=>{
+              addtocart(product.name)
+             });
+             col.querySelector(".addcart-viewbtn").addEventListener("click", () => {
+              window.location.href = `viewproduct.html?productname=${product.name}`;
+            });
+          
+          } else {
+            row.innerHTML = `<p>Product not found!</p>`; 
+          }        
+        }
+        const btnclick = document.getElementById("indexbtn");
+        btnclick.addEventListener('click', function () {
+            window.location.href = "index.html"
+        })
+        loginbtn.addEventListener('click', function(){
+            window.location.href="loginpage.html";
+        })
+        let  inputbuttonval=1;
+        const decreasebutton=document.querySelectorAll('.order-decrease-btn');
+        const increasebutton=document.querySelectorAll('.order-increase-btn');
+        const inputbutton=document.querySelectorAll('.order-cart-input-value').value;
+        increasebutton.addEventListener('click', function(){
+            const rslt=inputbuttonval+1;
+            inputbutton.innerHTML=rslt;
+            console.log(inputbutton)
+        
+        })
+
+      </script>
+<!-- ------------------------footer section--------------- -->
+<hr style="margin-top: 10px;">
+<footer>
+    <div class="footer-cont">
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="images/NewHeaderLogo1.webp" alt="">
+            </div>
+            <div class="footer-col">
+                <h1>about us</h1><br>
+                <a href="">about</a><br><br>
+                <a href="">grevince</a><br><br>
+                <a href="">events and trainbring</a><br><br>
+                <a href="">photos & video</a><br><br>
+                <a href="">legal</a><br>
+            </div>
+            <div class="footer-col">
+                <h1>policy</h1><br>
+                <a href="">privacy policy</a><br><br>
+                <a href="">terms & conditions </a><br><br>
+            </div>
+            <div class="footer-col">
+                <h1>contact us</h1><br>
+                <a href="" class="footer-col-social"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="" class="footer-col-social"><i class='bx bxl-instagram'></i></a>
+                <a href="" class="footer-col-social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-copywrite">
+        <h1>Copyright @2024 Unilink Marketing Private Limited All Rights Reserved</h1>
+    </div>
+</footer>
+
+<script src="js/banerscript.js"></script>
+<script src="js/app.js"></script>
+<script src="js/categoryses.js"></script>
+<script src="js/search.js"></script>
+</body>
+
+</html>

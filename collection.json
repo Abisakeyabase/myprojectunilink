@@ -1,0 +1,816 @@
+{
+    "categories": [
+        {
+            "category": "veterinary",
+            "image": "images/vetrinarylogo1.jpeg",
+            "products": [
+                {
+                    "id": 1,
+                    "image": "images/veterinary/paw mark oxy-up 500gm.png",
+                    "image1": "images/veterinary/paw mark AFX-500gm.jpg",
+                    "image2": "images/veterinary/paw mark AFX-500gm.jpg",
+                    "name": "Paw Mark OXY-UP 500gm",
+                    "price": 800,
+                    "description": "Protein | Vitamins | Minerals | Prebiotics | Probiotics | Bypass Fat,Increases Milk Yield by 10-15% according to breed.Increase SNF and Fat in Milk making Milk more valuable and economical for farmers.Helps to attain 1 calf per year.Increase overall growth of cattle's.Reduces cattle diseases probability."
+                },
+                {
+                    "id": 2,
+                    "name": "Paw Mark TOXI GO- 500gm",
+                    "price": 200,
+                    "image": "images/veterinary/paw mark toxibind-500gm.png",
+                    "description": "Protein | Vitamins | Minerals | Prebiotics | Probiotics | Bypass Fat,Increases Milk Yield by 10-15% according to breed.Increase SNF and Fat in Milk making Milk more valuable and economical for farmers.Helps to attain 1 calf per year.Increase overall growth of cattle's.Reduces cattle diseases probability."
+                },
+                {
+                    "id": 3,
+                    "name": "Paw Mark AFS 500gm",
+                    "price": 600,
+                    "image": "images/veterinary/paw mark AFX-500gm.jpg",
+                    "description": "Protein | Vitamins | Minerals | Prebiotics | Probiotics | Bypass Fat,Increases Milk Yield by 10-15% according to breed.Increase SNF and Fat in Milk making Milk more valuable and economical for farmers.Helps to attain 1 calf per year.Increase overall growth of cattle's.Reduces cattle diseases probability."
+                },
+                {
+                    "id": 4,
+                    "name": "Paw Mark ACIGUT-500gm",
+                    "price": 500,
+                    "image": "images/veterinary/paw mark ACIGUT-500ml.png",
+                    "description": "Protein | Vitamins | Minerals | Prebiotics | Probiotics | Bypass Fat,Increases Milk Yield by 10-15% according to breed.Increase SNF and Fat in Milk making Milk more valuable and economical for farmers.Helps to attain 1 calf per year.Increase overall growth of cattle's.Reduces cattle diseases probability."
+                },
+                {
+                    "id": 5,
+                    "name": "Paw Mark AQUA - KLEAR - 500gm",
+                    "price": 1400,
+                    "image": "images/veterinary/paw mark AQUA-klear-500gm.png",
+                    "description": "Protein | Vitamins | Minerals | Prebiotics | Probiotics | Bypass Fat,Increases Milk Yield by 10-15% according to breed.Increase SNF and Fat in Milk making Milk more valuable and economical for farmers.Helps to attain 1 calf per year.Increase overall growth of cattle's.Reduces cattle diseases probability."
+                },
+                {
+                    "id": 6,
+                    "name": "Paw Mark PROGEN- 500gm",
+                    "price": 600,
+                    "image": "images/veterinary/paw mark progen-500ml.png",
+                    "description": "Protein | Vitamins | Minerals | Prebiotics | Probiotics | Bypass Fat,Increases Milk Yield by 10-15% according to breed.Increase SNF and Fat in Milk making Milk more valuable and economical for farmers.Helps to attain 1 calf per year.Increase overall growth of cattle's.Reduces cattle diseases probability."
+                },
+                {
+                    "id": 7,
+                    "name": "Paw Mark TOXIBIND 500gm",
+                    "price": 750,
+                    "image": "images/veterinary/paw mark toxibind-500gm.png"
+                },
+                {
+                    "id": 8,
+                    "name": "Paw Mark VIMIN- 500gm",
+                    "price": 600,
+                    "image": "images/veterinary/paw mark VIMIN-500ml.png"
+                }
+            ]
+        },
+        {
+            "category": "health care",
+            "image": "images/vetrinarylogo.jpeg",
+            "products": [
+                {
+                    "id": 9,
+                    "name": "Uniaktiv CMD 60 ml",
+                    "price": 1650,
+                    "image": "images/health care/Uniaktiv CMD 60 ml.png"
+                },
+                {
+                    "id": 10,
+                    "name": "Flax-o 60 Tablets",
+                    "price": 400,
+                    "image": "images/health care/Flax-o 60 Tablets.png"
+                },
+                {
+                    "id": 11,
+                    "name": "Nutrimark Aci puls 200ml",
+                    "price": 220,
+                    "image": "images/health care/Nutrimark Aci puls 200ml.png"
+                },
+                {
+                    "id": 12,
+                    "name": "Nutrimark Bio-calmag-d 60 tablet",
+                    "price": 400,
+                    "image": "images/health care/Nutrimark Bio-calmag-d 60 tablet.png"
+                },
+                {
+                    "id": 13,
+                    "name": "Nutrimark heam puls 200ml",
+                    "price": 220,
+                    "image": "images/health care/Nutrimark heam puls 200ml.png"
+                },
+                {
+                    "id": 14,
+                    "name": "Nutrimark Immu puls 200ml",
+                    "price": 400,
+                    "image": "images/health care/Nutrimark Immu puls 200ml.png"
+                },
+                {
+                    "id": 15,
+                    "name": "Nutrimark respi puls 200ml",
+                    "price": 220,
+                    "image": "images/health care/Nutrimark respi puls 200ml.png"
+                },
+                {
+                    "id": 16,
+                    "name": "Nutrimark Respi plus 200ml",
+                    "price": 220,
+                    "image": "images/health care/Nutrimark respi puls 200ml.png"
+                },
+                {
+                    "id": 17,
+                    "name": "Nutrimark uri puls200ml",
+                    "price": 440,
+                    "image": "images/health care/Nutrimark uri puls200ml.png"
+                },
+                {
+                    "id": 18,
+                    "name": "Tulsi Drops 30 ml.",
+                    "price": 250,
+                    "image": "images/health care/Tulsi Drops 30 ml.png"
+                },
+                {
+                    "id": 19,
+                    "name": "Uniactiv Protein(F)",
+                    "price": 100,
+                    "image": "images/health care/Uniactiv Protein(F).png"
+                },
+                {
+                    "id": 20,
+                    "name": "Uniaktiv Asta-Revit 60 capsule",
+                    "price": 750,
+                    "image": "images/health care/Uniaktiv Asta-Revit 60 capsule.png"
+                },
+                {
+                    "id": 21,
+                    "name": "UniAktiv Detox 60 capsule",
+                    "price": 1000,
+                    "image": "images/health care/UniAktiv Detox 60 capsule.png"
+                },
+                {
+                    "id": 22,
+                    "name": "UniAktiv Detox 60 Tablets",
+                    "price": 1000,
+                    "image": "images/health care/UniAktiv Detox 60 Tablets.png"
+                },
+                {
+                    "id": 23,
+                    "name": "UniAktiv Joint",
+                    "price": 1000,
+                    "image": "images/health care/UniAktiv Joint.png"
+                },
+                {
+                    "id": 24,
+                    "name": "Uniaktiv Joint DS 60 capsule",
+                    "price": 750,
+                    "image": "images/health care/Uniaktiv Joint DS 60 capsule.png"
+                },
+                {
+                    "id": 25,
+                    "name": "Uniaktiv Kidney 60 capsule",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktiv Kidney 60 capsule.png"
+                },
+                {
+                    "id": 26,
+                    "name": "UniAktiv Liver 60 Tablets",
+                    "price": 1000,
+                    "image": "images/health care/UniAktiv Liver 60 Tablets.png"
+                },
+                {
+                    "id": 27,
+                    "name": "UniAktiv Men",
+                    "price": 1000,
+                    "image": "images/health care/UniAktiv Men.png"
+                },
+                {
+                    "id": 28,
+                    "name": "Uniaktiv Men 60 Capsule",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktiv Men 60 Capsule.png"
+                },
+                {
+                    "id": 29,
+                    "name": "Uniaktiv Nova",
+                    "price": 600,
+                    "image": "images/health care/Uniaktiv Nova.png"
+                },
+                {
+                    "id": 30,
+                    "name": "Uniaktive protein for kidz(f)",
+                    "price": 600,
+                    "image": "images/health care/Uniaktive protein for kidz(f).png"
+                },
+                {
+                    "id":31,
+                    "name": "Uniactiv Protein for Women(F)",
+                    "price": 1000,
+                    "image": "images/health care/Uniactiv Protein for Women(F).png"
+                },
+                {
+                    "id": 32,
+                    "name": "Uniaktiv pynil",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktiv pynil.png"
+                },
+                {
+                    "id": 33,
+                    "name": "Uniaktiv shyn",
+                    "price": 500,
+                    "image": "images/health care/Uniaktiv shyn.png"
+                },
+                {
+                    "id": 34,
+                    "name": "uniaktiv thyroid",
+                    "price": 750,
+                    "image": "images/health care/uniaktiv thyroid.png"
+                },
+                {
+                    "id": 35,
+                    "name": "Uniaktiv thyroid 60 tablets",
+                    "price": 500,
+                    "image": "images/health care/Uniaktiv thyroid 60 tablets.png"
+                },
+                {
+                    "id": 36,
+                    "name": "Uniaktiv Trendz 60 tablets",
+                    "price": 5000,
+                    "image": "images/health care/Uniaktiv Trendz 60 tablets.png"
+                },
+                {
+                    "id": 37,
+                    "name": "Uniaktiv vision",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktiv vision.png"
+                },
+                {
+                    "id": 38,
+                    "name": "uniaktiv vision 60 Tablets",
+                    "price": 500,
+                    "image": "images/health care/uniaktiv vision 60 Tablets.png"
+                },
+                {
+                    "id": 39,
+                    "name": "Uniaktiv Women",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktiv Women.png"
+                },
+                {
+                    "id": 40,
+                    "name": "UniAktive Heart",
+                    "price": 1000,
+                    "image": "images/health care/UniAktive Heart.png"
+                },
+                {
+                    "id": 41,
+                    "name": "Uniaktive Pynil 60 capsule",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktive Pynil 60 capsule.png"
+                },
+                {
+                    "id": 42,
+                    "name": "Uniaktive Trendz 60 Capsule",
+                    "price": 1000,
+                    "image": "images/health care/Uniaktive Trendz 60 Capsule.png"
+                },
+                {
+                    "id": 43,
+                    "name": "Uniaktive Women 60 capsule",
+                    "price": 500,
+                    "image": "images/health care/Uniaktive Women 60 capsule.png"
+                },
+                {
+                    "id": 44,
+                    "name": "Uri plus 200ml",
+                    "price": 200,
+                    "image": "images/health care/Uri plus 200ml.png"
+                }
+            ]
+        },
+        {
+            "category": "Personal Care",
+            "image": "images/personalcarelogo.jpeg",
+            "products": [
+                {
+                    "id": 45,
+                    "name": "Myristika Herbal Toothpaste",
+                    "price": 150,
+                    "image": "images/PERSONAL CARE/Myristika Herbal Toothpaste.png"
+                },
+                {
+                    "id": 46,
+                    "name": "Ocean fresh day cream 60gm",
+                    "price": 150,
+                    "image": "images/PERSONAL CARE/Ocean fresh day cream 60gm.png"
+                },
+                {
+                    "id" :47,
+                    "name": "Ocean Fresh charcoal face wash 100ml",
+                    "price": 180,
+                    "image": "images/PERSONAL CARE/Ocean Fresh charcoal face wash 100ml.png"
+                },
+                {
+                    "id":48,
+                    "name": "Hair oil",
+                    "price": 600,
+                    "image": "images/PERSONAL CARE/Hair oil.png"
+                },
+                {
+                    "id": 49,
+                    "name": "Myristika Foot cream",
+                    "price": 180,
+                    "image": "images/PERSONAL CARE/Myristika Foot cream.png"
+                },
+                {
+                    "id": 50,
+                    "name": "Myristika Luxury soap pack of 3",
+                    "price": 250,
+                    "image": "images/PERSONAL CARE/Myristika Luxury soap pack of 3.png"
+                },
+                {
+                    "id": 51,
+                    "name": "Myristika pain relief gel",
+                    "price": 250,
+                    "image": "images/PERSONAL CARE/Myristika pain relief gel.png"
+                },
+                {
+                    "id": 52,
+                    "name": "Ocean Fresh -AquaMarine soap 100gm",
+                    "price": 40,
+                    "image": "images/PERSONAL CARE/Ocean Fresh -AquaMarine soap 100gm.png"
+                },
+                {
+                    "id": 53,
+                    "name": "Ocean fresh anti-pimple cream 60gm",
+                    "price": 180,
+                    "image": "images/PERSONAL CARE/Ocean fresh anti-pimple cream 60gm.png"
+                },
+                {
+                    "id": 54,
+                    "name": "ocean fresh anti septic cream60gm",
+                    "price": 180,
+                    "image": "images/PERSONAL CARE/ocean fresh anti septic cream60gm.png"
+                },
+                {
+                    "id": 55,
+                    "name": "ocean fresh BB cream 20gm",
+                    "price": 170,
+                    "image": "images/PERSONAL CARE/ocean fresh BB cream 20gm.png"
+                },
+                {
+                    "id": 56,
+                    "name": "Ocean Fresh body lotion 250 ml",
+                    "price": 200,
+                    "image": "images/PERSONAL CARE/Ocean Fresh body lotion 250 ml.png"
+                },
+                {
+                    "id": 57,
+                    "name": "Ocean fresh cool cool oil 100ml",
+                    "price": 175,
+                    "image": "images/PERSONAL CARE/Ocean fresh cool cool oil 100ml.png"
+                },
+                {
+                    "id": 58,
+                    "name": "ocean fresh D-tanfacial kit-260gm",
+                    "price": 1200,
+                    "image": "images/PERSONAL CARE/ocean fresh D-tanfacial kit-260gm.png"
+                },
+                {
+                    "id": 59,
+                    "name": "ocean fresh face pack 100gm",
+                    "price": 250,
+                    "image": "images/PERSONAL CARE/ocean fresh face pack 100gm.png"
+                },
+                {
+                    "id": 60,
+                    "name": "Ocean fresh face scrub 100 gm",
+                    "price": 180,
+                    "image": "images/PERSONAL CARE/Ocean fresh face scrub 100 gm.png"
+                },
+                {
+                    "id":61,
+                    "name": "Ocean fresh face toner 100ml",
+                    "price": 160,
+                    "image": "images/PERSONAL CARE/Ocean fresh face toner 100ml.png"
+                },
+                {
+                    "id": 62,
+                    "name": "Ocean fresh face wash for normal & dry skin 100ml",
+                    "price": 160,
+                    "image": "images/PERSONAL CARE/Ocean fresh face wash for normal & dry skin 100ml.png"
+                },
+                {
+                    "id": 63,
+                    "name": "ocean fresh face wash for oily skin 100ml",
+                    "price": 360,
+                    "image": "images/PERSONAL CARE/ocean fresh face wash for oily skin 100ml.png"
+                },
+                {
+                    "id": 64,
+                    "name": "ocean fresh hair cream 100gm",
+                    "price": 360,
+                    "image": "images/PERSONAL CARE/ocean fresh hair cream 100gm.png"
+                },
+                {
+                    "id":65,
+                    "name": "ocean freshhair removal cream 50 gm",
+                    "price": 160,
+                    "image": "images/PERSONAL CARE/ocean freshhair removal cream 50 gm.png"
+                },
+                {
+                    "id": 66,
+                    "name": "ocean fresh night cream 60 gm",
+                    "price": 150,
+                    "image": "images/PERSONAL CARE/ocean fresh night cream 60 gm.png"
+                },
+                {
+                    "id": 67,
+                    "name": "Ocean fresh-Nourishing shampoo 500ml",
+                    "price": 400,
+                    "image": "images/PERSONAL CARE/Ocean fresh-Nourishing shampoo 500ml.png"
+                },
+                {
+                    "id": 68,
+                    "name": "ocean fresh shaving cream 100g",
+                    "price": 200,
+                    "image": "images/PERSONAL CARE/ocean fresh shaving cream 100g.png"
+                },
+                {
+                    "id": 69,
+                    "name": "ocean fresh sun screen",
+                    "price": 275,
+                    "image": "images/PERSONAL CARE/ocean fresh sun screen.png"
+                },
+                {
+                    "id":70,
+                    "name": "ocean fresh under eye gel 20 ml",
+                    "price": 200,
+                    "image": "images/PERSONAL CARE/ocean fresh under eye gel 20 ml.png"
+                },
+                {
+                    "id": 71,
+                    "name": "ocean fresh-anti dandruff shampoo 500gm",
+                    "price": 400,
+                    "image": "images/PERSONAL CARE/ocean fresh-anti dandruff shampoo 500gm.png"
+                },
+                {
+                    "id": 72,
+                    "name": "oceanfresh antiageing cream v1",
+                    "price": 300,
+                    "image": "images/PERSONAL CARE/oceanfresh antiageing cream v1.png"
+                },
+                {
+                    "id": 73,
+                    "name": "oceanfresh charcoal peel off facemask 100gm",
+                    "price": 250,
+                    "image": "images/PERSONAL CARE/oceanfresh charcoal peel off facemask 100gm.png"
+                }
+            ]
+        },
+        {
+            "category": "agriculture",
+            "image": "images/agrilogo.jpeg",
+            "products": [
+                {
+                    "id":74,
+                    "name": "Unimark UNICARBN-1LTR",
+                    "price": 850,
+                    "image": "images/Agriculture/Unimark UNICARBN-1LTR.png"
+                },
+                {
+                    "id": 75,
+                    "name": "Unimark Uni-Spase 100ml",
+                    "price": 325,
+                    "image": "images/Agriculture/Unimark Uni-Spase 100ml.png"
+                },
+                {
+                    "id": 76,
+                    "name": "Unimark UNISOIL-1 LTR V1",
+                    "price": 800,
+                    "image": "images/Agriculture/Unimark UNISOIL-1 LTR V1.png"
+                },
+                {
+                    "id": 77,
+                    "name": "UniCarbN 5 Liter",
+                    "price": 4250,
+                    "image": "images/Agriculture/UniCarbN 5 Liter.png"
+                },
+                {
+                    "id": 78,
+                    "name": "Unimark Acerbic S-500ml",
+                    "price": 1080,
+                    "image": "images/Agriculture/Unimark Acerbic S-500ml.png"
+                },
+                {
+                    "id": 79,
+                    "name": "Unimark Acerbic-250ml",
+                    "price": 1600,
+                    "image": "images/Agriculture/Unimark Acerbic-250ml.png"
+                },
+                {
+                    "id":80,
+                    "name": "Unimark Bio-Pro_500ml",
+                    "price": 600,
+                    "image": "images/Agriculture/Unimark Bio-Pro_500ml.png"
+                },
+                {
+                    "id": 81,
+                    "name": "Unimark Booster 25gm",
+                    "price": 800,
+                    "image": "images/Agriculture/Unimark Booster 25gm.png"
+                },
+                {
+                    "id": 82,
+                    "name": "Unimark Curlex-250ml",
+                    "price": 1000,
+                    "image": "images/Agriculture/Unimark Curlex-250ml.png"
+                },
+                {
+                    "id": 83,
+                    "name": "Unimark Hook Up-1ltr",
+                    "price": 2000,
+                    "image": "images/Agriculture/Unimark Hook Up-1ltr.png"
+                },
+                {
+                    "id": 84,
+                    "name": "Unimark Skunk-250ml",
+                    "price": 1800,
+                    "image": "images/Agriculture/Unimark Skunk-250ml.png"
+                },
+                {
+                    "id": 85,
+                    "name": "Unimark Sparesh  Bio-1ltr",
+                    "price": 1500,
+                    "image": "images/Agriculture/Unimark Sparesh  Bio-1ltr.png"
+                },
+                {
+                    "id":86,
+                    "name": "Unimark Top Soil 1kg",
+                    "price": 800,
+                    "image": "images/Agriculture/Unimark Top Soil 1kg.png"
+                },
+                {
+                    "id": 87,
+                    "name": "Unimark UNI CHARGER-1LTR",
+                    "price": 1200,
+                    "image": "images/Agriculture/Unimark UNI CHARGER-1LTR.png"
+                },
+                {
+                    "id": 88,
+                    "name": "Unimark uni comp-1ltr",
+                    "price": 800,
+                    "image": "images/Agriculture/Unimark uni comp-1ltr.png"
+                },
+                {
+                    "id": 89,
+                    "name": "Unimark UNIFERT AZO_N_1Ltr",
+                    "price": 700,
+                    "image": "images/Agriculture/Unimark UNIFERT AZO_N_1Ltr.png"
+                },
+                {
+                    "id":90,
+                    "name": "Unimark UNIFERT AZO-N-5Ltr",
+                    "price": 3250,
+                    "image": "images/Agriculture/Unimark UNIFERT AZO-N-5Ltr.png"
+                },
+                {
+                    "id": 91,
+                    "name": "Unimark UNIFERT-K-1ltr",
+                    "price": 650,
+                    "image": "images/Agriculture/Unimark UNIFERT-K-1ltr.png"
+                },
+                {
+                    "id": 92,
+                    "name": "Unimark UNIFERT-P-1ltr",
+                    "price": 3250,
+                    "image": "images/Agriculture/Unimark UNIFERT-P-1ltr.png"
+                },
+                {
+                    "id": 93,
+                    "name": "Unimark UNIFERT-P-5ltr",
+                    "price": 3250,
+                    "image": "images/Agriculture/Unimark UNIFERT-P-5ltr.png"
+                },
+                {
+                    "id": 94,
+                    "name":"Unimark UNIPH-500 ml",
+                    "price": 1,
+                    "image": "images/Agriculture/Unimark UNIPH-500 ml.png"
+                },
+                {
+                    "id": 95,
+                    "name": "Unimark UNIRICH-1 LTR",
+                    "price": 1,
+                    "image": "images/Agriculture/Unimark UNIRICH-1 LTR.png"
+                },
+                {
+                    "id": 96,
+                    "name": "Unimark UNISIL-1LTR",
+                    "price": 800,
+                    "image": "images/Agriculture/Unimark UNISIL-1LTR.png"
+                },
+                {
+                    "id": 97,
+                    "name": "Unimark UNISOIL-1 LTR",
+                    "price": 1500,
+                    "image": "images/Agriculture/Unimark UNISOIL-1 LTR.png"
+                },
+                {
+                    "id": 98,
+                    "name": "Unimark WIND-UP 1LTR",
+                    "price": 1200,
+                    "image": "images/Agriculture/Unimark WIND-UP 1LTR.png"
+                },
+                {
+                    "id": 99,
+                    "name": "UniRich-100ML",
+                    "price": 700,
+                    "image": "images/Agriculture/UniRich-100ML.png"
+                },
+                {
+                    "id": 100,
+                    "name": "UniRich-250ml",
+                    "price": 1500,
+                    "image": "images/Agriculture/UniRich-250ml.png"
+                },
+                {
+                    "id": 101,
+                    "name": "UniRich-500ml",
+                    "price": 700,
+                    "image": "images/Agriculture/UniRich-500ml.png"
+                },
+                {
+                    "id": 102,
+                    "name": "UniSil-500ml",
+                    "price": 400,
+                    "image": "images/Agriculture/UniSil-500ml.png"
+                },
+                {
+                    "id": 103,
+                    "name": "Unisoil-500 ml",
+                    "price": 400,
+                    "image": "images/Agriculture/Unisoil-500 ml.png"
+                },
+                {
+                    "id": 104,
+                    "name": "Unisoil 5liter",
+                    "price": 3750,
+                    "image": "images/Agriculture/Unistic 5 Ltr.png"
+                }
+            ]
+        },
+        {
+            "category": "Home care",
+            "image": "images/homecarelogo.jpeg",
+            "products": [
+                {
+                    "id": 105,
+                    "name": "Bio Wash-350ml",
+                    "price": 850,
+                    "image":"images/Home care/Bio Wash-350ml.png"
+                },
+                {
+                    "id": 106,
+                    "name": "Clarimark floor cleaner-500ml",
+                    "price": 100,
+                    "image":"images/Home care/Clarimark floor cleaner-500ml.png"
+                },
+                {
+                    "id": 107,
+                    "name": "clarimark toilet cleaner 500ml",
+                    "price": 90,
+                    "image":"images/Home care/clarimark toilet cleaner 500ml.png"
+                }
+            ]
+        },
+        {
+            "category": "grocery",
+            "image": "images/vetrinarylogo.jpeg",
+            "products": [
+                {
+                    "id": 108,
+                    "name": "briyani masala",
+                    "price": 70,
+                    "image":"images/New folder/briyani masala.png"
+                },
+                {
+                    "id": 109,
+                    "name": "chaat masala",
+                    "price": 100,
+                    "image":"images/New folder/chaat masala.png"
+                },
+                {
+                    "id": 110,
+                    "name": "chicken masala",
+                    "price": 100,
+                    "image":"images/New folder/chicken masala.png"
+                },
+                {
+                    "id": 111,
+                    "name": "chole masala",
+                    "price": 100,
+                    "image":"images/New folder/chole masala.png"
+                },
+                {
+                    "id": 112,
+                    "name": "coriander powder",
+                    "price": 60,
+                    "image":"images/New folder/coriander powder.png"
+                },
+                {
+                    "id": 113,
+                    "name": "egg curry masla",
+                    "price": 100,
+                    "image":"images/New folder/egg curry masla.png"
+                },
+                {
+                    "id": 114,
+                    "name": "fish curry masala",
+                    "price": 80,
+                    "image":"images/New folder/fish curry masala.png"
+                },
+                {
+                    "id": 115,
+                    "name": "fish fry masala",
+                    "price": 80,
+                    "image":"images/New folder/fish fry masala.png"
+                },
+                {
+                    "id": 116,
+                    "name": "garam masala",
+                    "price": 200,
+                    "image":"images/New folder/garam masala.png"
+                },
+                {
+                    "id": 117,
+                    "name": "kashmiri kesar",
+                    "price": 100,
+                    "image":"images/New folder/kashmiri kesar.png"
+                },
+                {
+                    "id": 118,
+                    "name": "kitchen king masala",
+                    "price": 70,
+                    "image":"images/New folder/kitchen king masala.png"
+                },
+                {
+                    "id": 119,
+                    "name": "lahsun Masala",
+                    "price": 80,
+                    "image":"images/New folder/lahsun Masala.png"
+                },
+                {
+                    "id": 120,
+                    "name": "mutton masala",
+                    "price": 60,
+                    "image":"images/New folder/mutton masala.png"
+                },
+                {
+                    "id": 121,
+                    "name": "paneer masala",
+                    "price": 70,
+                    "image":"images/New folder/paneer masala.png"
+                },
+                {
+                    "id": 122,
+                    "name": "pav bhaji masala",
+                    "price": 100,
+                    "image":"images/New folder/pav bhaji masala.png"
+                },
+                {
+                    "id": 123,
+                    "name": "Premium Tea",
+                    "price": 100,
+                    "image":"images/New folder/Premium Tea.png"
+                },
+                {
+                    "id": 124,
+                    "name": "red chilli powder 1",
+                    "price": 60,
+                    "image":"images/New folder/red chilli powder 1.png"
+                },
+                 {
+                    "id": 125,
+                    "name": "sabji masala",
+                    "price": 100,
+                    "image":"images/New folder/sabji masala.png"
+                },
+                {
+                    "id": 126,
+                    "name": "sambhar masala",
+                    "price": 80,
+                    "image":"images/New folder/sambhar masala.png"
+                },
+                {
+                    "id": 127,
+                    "name": "tandoori chicken masala",
+                    "price": 100,
+                    "image":"images/New folder/tandoori chicken masala.png"
+                },
+                {
+                    "id": 128,
+                    "name": "Turmeric powder 1",
+                    "price": 80,
+                    "image":"images/New folder/Turmeric powder 1.png"
+                }
+            ]
+        }
+    ]
+}
